@@ -1,0 +1,24 @@
+.Main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+button{
+    margin-top: 5%;
+    border-radius: 10%;
+ cursor: pointer;
+ background: linear-gradient(to right,#616C6F,#1B1D21);
+    padding: 10px;
+color: white;
+font-family: cursive;
+border-color: blue;
+}

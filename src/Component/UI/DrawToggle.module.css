@@ -1,0 +1,22 @@
+.Menu{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.Menu:hover .Menu>div{
+    background-color: wheat;
+
+}
+.Menu>div{
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 2px 5px 2px 0;
+}
+
+@media(min-width:550px){
+    .Menu>div{
+        display: none;
+    }
+}

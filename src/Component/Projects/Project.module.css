@@ -1,0 +1,19 @@
+.Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+
+}
+.ProjectItem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: rgba(2, 2, 2, 0.219);
+    /* padding: 25px; */
+}
+.ProjectItem > *{
+    margin: 10px 0;
+}

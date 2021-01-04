@@ -1,0 +1,21 @@
+.Layout{
+    height: 80%;
+    width: 100%;
+    background: linear-gradient(to right,#616C6F,#1B1D21);
+    box-shadow: 3px 5px 5px 3px rgba(0, 0, 25, 0.1);
+    display: flex;
+    overflow: overlay;
+}
+.Content{
+    width: 100%;
+}
+@media(min-width:550px){
+    .Layout{
+        /* display: flex;
+        align-self: center;
+        justify-content: center;
+        flex: 1; */
+        height: 80%;
+        width: 80%;
+    }
+}

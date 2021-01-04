@@ -1,0 +1,51 @@
+Form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Main{
+color: white;
+display: flex;
+justify-content: space-between;
+margin-left:5% ;
+}
+.Contact{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    font-size: 1.5vw;
+}
+.Contact::-webkit-scrollbar{
+    display: none;
+}
+
+.Image{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 5%;
+    
+}
+input,textarea {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: solid;
+    background: none;
+height: 25px;
+color: white;
+padding: 15px;
+}
+textarea {
+    height: 50px;
+}
+  
+  .outline:focus {
+    outline: none;
+  }
+  Button{
+      border-color: green;
+  }

@@ -1,0 +1,57 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+}
+.About::-webkit-scrollbar{
+    display: none;
+}
+hr{
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+
+strong{
+    display: inline;
+}
+.Intro{
+    text-align: justify;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.row hr{
+    width: 100%;
+}
+svg{
+    margin-left: 50%;
+}
+ .thirdCol>svg{
+    margin-left: 10%;
+} 
+
+.Lato{
+font-size: 15px;
+    font-family: cursive;
+    margin-left: 5%;
+}
+.Social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+@media screen and (min-width: 600px) {
+    .Intro{
+        text-align: justify;
+    margin-left: 12%;
+    }
+  }
+  
