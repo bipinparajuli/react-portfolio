@@ -25,7 +25,7 @@ const About = () => {
         <h3>Front-end</h3>
         <hr/>
         <p>- HTML(5)</p>
-        <p>- CSS(5)</p>
+        <p>- CSS(3)</p>
         <p>- JavaScript</p>
         <p>- Bootstrap</p>
         <p>- React</p>
