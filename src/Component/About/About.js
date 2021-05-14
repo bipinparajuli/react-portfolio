@@ -55,7 +55,7 @@ const About = () => {
 <div className={classes.Personal}>
     <h1>PERSONAL</h1>
     <hr/>
-    <p className={classes.Lato}>My name is Bipin Parajuli. Self taught with over 1 years of experience, who designs, develops, speaks and teaches about building high quality and accessible websites . I focus on creating rich seamless experiences between the product and the user. I'm always looking for creative people to vibe with, let's connect through my social channels below.</p>
+    <p className={classes.Lato}>Bipin Parajuli is a Self taught with over 2 years of experience, who designs, develops, speaks and teaches about building high quality and accessible websites . I focus on creating rich seamless experiences between the product and the user. I'm always looking for creative people to vibe with, let's connect through my social channels below.</p>
 </div>
 <div className={classes.Social}>
 <Social/>
