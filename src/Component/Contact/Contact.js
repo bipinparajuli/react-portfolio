@@ -9,9 +9,9 @@ const sendEmail=(e)=>{
     e.preventDefault();
 emailjs.sendForm('gmail','template_5ufiggo',e.target,'user_GKhLNyE8Tb8S7ZXJ7Y7qb')
 .then((result)=>{
-    console.log(result.text);
+    // console.log(result.text);
 },(error)=>{
-    console.log(error.text);
+    // console.log(error.text);
 })
 
 e.target.reset();
