@@ -14,7 +14,7 @@ const Project = () => {
   <a href='https://todo-app-cp-e2296.web.app/'>▶️ Amazone Clone (JavaScript,React,Firebase)</a>
   <a href="https://kinbechh.netlify.app/">▶️ E-Commerce (JavaScript,React,Firebase)</a>
   <a href="https://mobile-stores.netlify.app/">▶️Full-Stack E-Commerce (MERN)</a>
-
+  <a href="http://xavierinternaltionalcollegelms.netlify.app/">▶️Library Management System(MERN)</a>
 </div>
 </div>
   
